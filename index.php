@@ -12,4 +12,3 @@ if (file_exists($publicIndex)) {
 http_response_code(503);
 header('Content-Type: text/plain');
 echo "Laravel public/index.php not found. Ensure the application is deployed correctly.";
-*** End Patch
