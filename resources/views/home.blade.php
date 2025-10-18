@@ -24,21 +24,21 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="{{ route('/') }}/assets/images/masonry/1.jpg" alt="Slide 1">
+              <img class="d-block w-100" src="{{ asset('assets/images/masonry/1.jpg') }}" alt="Slide 1">
               <div class="carousel-caption d-none d-md-block text-left">
                 <h4>Accurate Accounting</h4>
                 <p>Trusted bookkeeping and financial reporting.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="{{ route('/') }}/assets/images/masonry/2.jpg" alt="Slide 2">
+              <img class="d-block w-100" src="{{ asset('assets/images/masonry/2.jpg') }}" alt="Slide 2">
               <div class="carousel-caption d-none d-md-block text-left">
                 <h4>Actionable Insights</h4>
                 <p>Smart dashboards to guide business decisions.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="{{ route('/') }}/assets/images/masonry/3.jpg" alt="Slide 3">
+              <img class="d-block w-100" src="{{ asset('assets/images/masonry/3.jpg') }}" alt="Slide 3">
               <div class="carousel-caption d-none d-md-block text-left">
                 <h4>End-to-End Support</h4>
                 <p>Tax, payroll, compliance, and advisory.</p>
