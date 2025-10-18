@@ -1,6 +1,20 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
+    # Do not rewrite existing files or directories
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Avoid rewriting if already under /public
+    RewriteCond %{REQUEST_URI} !^/public/
+
+    # Rewrite everything to /public
+    RewriteRule ^(.*)$ public/$1 [L,QSA]
+</IfModule>
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
     # Internally rewrite the root to the Laravel front controller in /public
     RewriteRule ^$ public/index.php [L]
 
