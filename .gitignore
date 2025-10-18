@@ -1,0 +1,36 @@
+# Laravel standard ignores
+
+# Dependencies
+vendor/
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.backup
+.phpunit.result.cache
+
+# Laravel storage
+storage/*.key
+storage/app/public
+storage/framework/cache/data
+storage/framework/sessions
+storage/framework/testing
+storage/framework/views
+storage/logs
+
+# Public symlinks/runtime
+public/hot
+public/storage
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
