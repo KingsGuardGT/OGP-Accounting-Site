@@ -11,14 +11,14 @@
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.5.0",
         "jcobhams/newsapi": "^1.0",
-        "laravel/framework": "11",
+        "laravel/framework": "11.44.1",
         "laravel/sanctum": "4",
         "laravel/tinker": "^2.8.1",
         "league/commonmark": "^2.7",
         "nesbot/carbon": "^2.72.6",
         "nunomaduro/termwind": "2",
-        "symfony/http-foundation": "7",
-        "symfony/process": "7"
+        "symfony/http-foundation": "7.3",
+        "symfony/process": "7.3"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^2.0",
