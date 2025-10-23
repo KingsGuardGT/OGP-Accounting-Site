@@ -13,6 +13,18 @@
                <li><a href="{{route('ecommerce')}}">ecommerce</a></li>
             </ul>
          </li>
+
+         <!-- Site pages: human-friendly labels -->
+         <li>
+            <a href="#"><i class="font-primary" data-feather="globe"></i> Site</a>
+            <ul>
+               <li><a href="{{ route('home') }}">Home</a></li>
+               <li><a href="{{ route('site.about') }}">About Us</a></li>
+               <li><a href="{{ route('site.news') }}">News</a></li>
+               <li><a href="{{ route('site.find-us') }}">Find Us</a></li>
+               <li><a href="{{ route('site.contact') }}">Contact Us</a></li>
+            </ul>
+         </li>
          <li>
             <a href="#"><i class="font-primary" data-feather="airplay"></i> Widgets</a>
             <ul>
