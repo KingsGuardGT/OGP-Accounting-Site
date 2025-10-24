@@ -8,9 +8,9 @@
          <li>
             <a href="#"><i class="font-primary" data-feather="home"></i> Dashboard</a>
             <ul>
-               <li><a href="{{route('default')}}">default</a></li>
-               <li><a href="{{route('crypto')}}">crypto</a></li>
-               <li><a href="{{route('ecommerce')}}">ecommerce</a></li>
+               <li><a href="{{route('default')}}">Dashboard Home</a></li>
+               <li><a href="{{route('crypto')}}">Crypto</a></li>
+               <li><a href="{{route('ecommerce')}}">E-commerce</a></li>
             </ul>
          </li>
 
@@ -28,8 +28,8 @@
          <li>
             <a href="#"><i class="font-primary" data-feather="airplay"></i> Widgets</a>
             <ul>
-               <li><a href="{{route('general-widget')}}">general-widget</a></li>
-               <li><a href="{{route('chart-widget')}}">chart-widget</a></li>
+               <li><a href="{{route('general-widget')}}">General Widgets</a></li>
+               <li><a href="{{route('chart-widget')}}">Chart Widgets</a></li>
             </ul>
          </li>
          <li>
@@ -44,10 +44,10 @@
                <li class="active">
                   <a href="#">Menu Options</a>
                   <ul>
-                     <li><a href="{{route('hide-on-scroll')}}">hide-on-scroll</a></li>
-                     <li><a class="current" href="{{route('vertical')}}">vertical</a></li>
-                     <li><a href="{{route('mega-menu')}}">mega-menu</a></li>
-                     <li><a href="{{route('fix-header')}}">fix-header</a></li>
+                     <li><a href="{{route('hide-on-scroll')}}">Hide on Scroll</a></li>
+                     <li><a class="current" href="{{route('vertical')}}">Vertical</a></li>
+                     <li><a href="{{route('mega-menu')}}">Mega Menu</a></li>
+                     <li><a href="{{route('fix-header')}}">Fixed Header</a></li>
                   </ul>
                </li>
             </ul>
@@ -55,8 +55,8 @@
          <li>
             <a href="#"><i class="font-primary" data-feather="edit"></i> Builder</a>
             <ul>
-               <li><a href="{{route('form-builder-1')}}">form-builder-1</a></li>
-               <li><a href="{{route('button-builder')}}">button-builder</a></li>
+               <li><a href="{{route('form-builder-1')}}">Form Builder</a></li>
+               <li><a href="{{route('button-builder')}}">Button Builder</a></li>
             </ul>
          </li>
          <li>
@@ -65,18 +65,18 @@
                <li>
                   <a class="sidebar-header" href="#"><span> Base</span></a>
                   <ul class="sidebar-submenu">
-                     <li><a href="{{route('state-color')}}">state-color</a></li>
-                     <li><a href="{{route('typography')}}">typography</a></li>
-                     <li><a href="{{route('helper-classes')}}">helper-classes</a></li>
-                     <li><a href="{{route('grid')}}">grid</a></li>
-                     <li><a href="{{route('tag-pills')}}">tag-pills</a></li>
-                     <li><a href="{{route('progress-bar')}}">progress-bar</a></li>
-                     <li><a href="{{route('modal')}}">modal</a></li>
-                     <li><a href="{{route('alert')}}">alert</a></li>
-                     <li><a href="{{route('popover')}}">popover</a></li>
-                     <li><a href="{{route('tooltip')}}">tooltip</a></li>
-                     <li><a href="{{route('loader')}}">loader</a></li>
-                     <li><a href="{{route('dropdown')}}">dropdown</a></li>
+                     <li><a href="{{route('state-color')}}">State Color</a></li>
+                     <li><a href="{{route('typography')}}">Typography</a></li>
+                     <li><a href="{{route('helper-classes')}}">Helper Classes</a></li>
+                     <li><a href="{{route('grid')}}">Grid</a></li>
+                     <li><a href="{{route('tag-pills')}}">Tag Pills</a></li>
+                     <li><a href="{{route('progress-bar')}}">Progress Bar</a></li>
+                     <li><a href="{{route('modal')}}">Modal</a></li>
+                     <li><a href="{{route('alert')}}">Alert</a></li>
+                     <li><a href="{{route('popover')}}">Popover</a></li>
+                     <li><a href="{{route('tooltip')}}">Tooltip</a></li>
+                     <li><a href="{{route('loader')}}">Loader</a></li>
+                     <li><a href="{{route('dropdown')}}">Dropdown</a></li>
                      <li>
                         <a href="crm.html">Tabs</a>
                         <ul class="sidebar-submenu">
@@ -84,55 +84,55 @@
                            <li><a href="{{route('tab-material')}}">tab-material</a></li>
                         </ul>
                      </li>
-                     <li><a href="{{route('accordion')}}">accordion</a></li>
-                     <li><a href="{{route('navs')}}">navs</a></li>
-                     <li><a href="{{route('list')}}">list</a></li>
+                     <li><a href="{{route('accordion')}}">Accordion</a></li>
+                     <li><a href="{{route('navs')}}">Navigation</a></li>
+                     <li><a href="{{route('list')}}">List</a></li>
                   </ul>
                </li>
                <li>
                   <a class="sidebar-header" href="#"><span> Advance</span></a>
                   <ul class="sidebar-submenu">
-                     <li><a href="{{route('scrollable')}}">scrollable</a></li>
-                     <li><a href="{{route('tree')}}">tree</a></li>
-                     <li><a href="{{route('bootstrap-notify')}}">bootstrap-notify</a></li>
-                     <li><a href="{{route('rating')}}">rating</a></li>
-                     <li><a href="{{route('dropzone')}}">dropzone</a></li>
-                     <li><a href="{{route('tour')}}">tour</a></li>
-                     <li><a href="{{route('sweet-alert2')}}">sweet-alert2</a></li>
-                     <li><a href="{{route('modal-animated')}}">modal-animated</a></li>
-                     <li><a href="{{route('owl-carousel')}}">owl-carousel</a></li>
-                     <li><a href="{{route('ribbons')}}">ribbons</a></li>
-                     <li><a href="{{route('pagination')}}">pagination</a></li>
-                     <li><a href="{{route('steps')}}">steps</a></li>
-                     <li><a href="{{route('breadcrumb')}}">breadcrumb</a></li>
-                     <li><a href="{{route('range-slider')}}">range-slider</a></li>
-                     <li><a href="{{route('image-cropper')}}">image-cropper</a></li>
-                     <li><a href="{{route('sticky')}}">sticky</a></li>
+                     <li><a href="{{route('scrollable')}}">Scrollable</a></li>
+                     <li><a href="{{route('tree')}}">Tree</a></li>
+                     <li><a href="{{route('bootstrap-notify')}}">Bootstrap Notify</a></li>
+                     <li><a href="{{route('rating')}}">Rating</a></li>
+                     <li><a href="{{route('dropzone')}}">Dropzone</a></li>
+                     <li><a href="{{route('tour')}}">Tour</a></li>
+                     <li><a href="{{route('sweet-alert2')}}">SweetAlert2</a></li>
+                     <li><a href="{{route('modal-animated')}}">Modal Animated</a></li>
+                     <li><a href="{{route('owl-carousel')}}">Owl Carousel</a></li>
+                     <li><a href="{{route('ribbons')}}">Ribbons</a></li>
+                     <li><a href="{{route('pagination')}}">Pagination</a></li>
+                     <li><a href="{{route('steps')}}">Steps</a></li>
+                     <li><a href="{{route('breadcrumb')}}">Breadcrumb</a></li>
+                     <li><a href="{{route('range-slider')}}">Range Slider</a></li>
+                     <li><a href="{{route('image-cropper')}}">Image Cropper</a></li>
+                     <li><a href="{{route('sticky')}}">Sticky</a></li>
                   </ul>
                </li>
                <li>
                   <a class="sidebar-header" href="#"><span>Animation</span></a>
                   <ul class="sidebar-submenu">
-                     <li><a href="{{route('animate')}}">animate</a></li>
-                     <li><a href="{{route('scroll-reval')}}">scroll-reval</a></li>
-                     <li><a href="{{route('aos')}}">aos</a></li>
-                     <li><a href="{{route('tilt')}}">tilt</a></li>
-                     <li><a href="{{route('wow')}}">wow</a></li>
+                     <li><a href="{{route('animate')}}">Animate</a></li>
+                     <li><a href="{{route('scroll-reval')}}">Scroll Reveal</a></li>
+                     <li><a href="{{route('aos')}}">AOS</a></li>
+                     <li><a href="{{route('tilt')}}">Tilt</a></li>
+                     <li><a href="{{route('wow')}}">WOW</a></li>
                   </ul>
                </li>
                <li>
                   <a class="sidebar-header" href="#"><span>Icons</span></a>
                   <ul class="sidebar-submenu">
-                     <li><a href="{{route('font-awesome')}}">font-awesome</a></li>
-                     <li><a href="{{route('ico-icon')}}">ico-icon</a></li>
-                     <li><a href="{{route('themify-icon')}}">themify-icon</a></li>
-                     <li><a href="{{route('whether-icon')}}">whether-icon</a></li>
+                     <li><a href="{{route('font-awesome')}}">Font Awesome</a></li>
+                     <li><a href="{{route('ico-icon')}}">ICO Icon</a></li>
+                     <li><a href="{{route('themify-icon')}}">Themify Icon</a></li>
+                     <li><a href="{{route('whether-icon')}}">Weather Icon</a></li>
                   </ul>
                </li>
                <li>
                   <a class="sidebar-header" href="#"><span>Buttons</span></a>
                   <ul class="sidebar-submenu">
-                     <li><a href="{{route('buttons')}}">buttons</a></li>
+                     <li><a href="{{route('buttons')}}">Buttons</a></li>
                   </ul>
                </li>
                <li>
@@ -141,35 +141,35 @@
                      <li>
                         <a>Form Controls</a>
                         <ul class="sidebar-submenu">
-                           <li><a href="{{route('form-validation')}}">form-validation</a></li>
-                           <li><a href="{{route('base-input')}}">base-input</a></li>
-                           <li><a href="{{route('radio-checkbox-control')}}">radio-checkbox-control</a></li>
-                           <li><a href="{{route('input-group')}}">input-group</a></li>
-                           <li><a href="{{route('megaoptions')}}">megaoptions</a></li>
+                           <li><a href="{{route('form-validation')}}">Form Validation</a></li>
+                           <li><a href="{{route('base-input')}}">Base Input</a></li>
+                           <li><a href="{{route('radio-checkbox-control')}}">Radio &amp; Checkbox</a></li>
+                           <li><a href="{{route('input-group')}}">Input Group</a></li>
+                           <li><a href="{{route('megaoptions')}}">Mega Options</a></li>
                         </ul>
                      </li>
                      <li>
                         <a>Form Widgets</a>
                         <ul class="sidebar-submenu">
-                           <li><a href="{{route('datepicker')}}">datepicker</a></li>
-                           <li><a href="{{route('time-picker')}}">time-picker</a></li>
-                           <li><a href="{{route('datetimepicker')}}">datetimepicker</a></li>
-                           <li><a href="{{route('daterangepicker')}}">daterangepicker</a></li>
-                           <li><a href="{{route('touchspin')}}">touchspin</a></li>
-                           <li><a href="{{route('select2')}}">select2</a></li>
-                           <li><a href="{{route('switch')}}">switch</a></li>
-                           <li><a href="{{route('typeahead')}}">typeahead</a></li>
-                           <li><a href="{{route('clipboard')}}">clipboard</a></li>
+                           <li><a href="{{route('datepicker')}}">Date Picker</a></li>
+                           <li><a href="{{route('time-picker')}}">Time Picker</a></li>
+                           <li><a href="{{route('datetimepicker')}}">Date &amp; Time Picker</a></li>
+                           <li><a href="{{route('daterangepicker')}}">Date Range Picker</a></li>
+                           <li><a href="{{route('touchspin')}}">Touchspin</a></li>
+                           <li><a href="{{route('select2')}}">Select2</a></li>
+                           <li><a href="{{route('switch')}}">Switch</a></li>
+                           <li><a href="{{route('typeahead')}}">Typeahead</a></li>
+                           <li><a href="{{route('clipboard')}}">Clipboard</a></li>
                         </ul>
                      </li>
                      <li>
                         <a>Form Layout</a>
                         <ul class="sidebar-submenu">
-                           <li><a href="{{route('default-form')}}">default-form</a></li>
-                           <li><a href="{{route('form-wizard')}}">form-wizard</a></li>
-                           <li><a href="{{route('form-wizard-two')}}">form-wizard-two</a></li>
-                           <li><a href="{{route('form-wizard-three')}}">form-wizard-three</a></li>
-                           <li><a href="{{route('form-wizard-four')}}">form-wizard-four</a></li>
+                           <li><a href="{{route('default-form')}}">Default Form</a></li>
+                           <li><a href="{{route('form-wizard')}}">Form Wizard</a></li>
+                           <li><a href="{{route('form-wizard-two')}}">Form Wizard (2)</a></li>
+                           <li><a href="{{route('form-wizard-three')}}">Form Wizard (3)</a></li>
+                           <li><a href="{{route('form-wizard-four')}}">Form Wizard (4)</a></li>
                         </ul>
                      </li>
                   </ul>
@@ -180,78 +180,78 @@
                      <li>
                         <a href="#">Bootstrap Tables</a>
                         <ul class="sidebar-submenu">
-                           <li><a href="{{route('bootstrap-basic-table')}}">bootstrap-basic-table</a></li>
-                           <li><a href="{{route('bootstrap-sizing-table')}}">bootstrap-sizing-table</a></li>
-                           <li><a href="{{route('bootstrap-border-table')}}">bootstrap-border-table</a></li>
-                           <li><a href="{{route('bootstrap-styling-table')}}">bootstrap-styling-table</a></li>
-                           <li><a href="{{route('table-components')}}">table-components</a></li>
+                           <li><a href="{{route('bootstrap-basic-table')}}">Bootstrap Basic</a></li>
+                           <li><a href="{{route('bootstrap-sizing-table')}}">Bootstrap Sizing</a></li>
+                           <li><a href="{{route('bootstrap-border-table')}}">Bootstrap Border</a></li>
+                           <li><a href="{{route('bootstrap-styling-table')}}">Bootstrap Styling</a></li>
+                           <li><a href="{{route('table-components')}}">Table Components</a></li>
                         </ul>
                      </li>
                      <li>
                         <a href="#">Data Tables</a>
                         <ul class="sidebar-submenu">
-                           <li><a href="{{route('datatable-basic-init')}}">datatable-basic-init</a></li>
-                           <li><a href="{{route('datatable-advance')}}">datatable-advance</a></li>
-                           <li><a href="{{route('datatable-styling')}}">datatable-styling</a></li>
-                           <li><a href="{{route('datatable-ajax')}}">datatable-ajax</a></li>
-                           <li><a href="{{route('datatable-server-side')}}">datatable-server-side</a></li>
-                           <li><a href="{{route('datatable-plugin')}}">datatable-plugin</a></li>
-                           <li><a href="{{route('datatable-api')}}">datatable-api</a></li>
-                           <li><a href="{{route('datatable-data-source')}}">datatable-data-source</a></li>
+                           <li><a href="{{route('datatable-basic-init')}}">DataTable Basic</a></li>
+                           <li><a href="{{route('datatable-advance')}}">DataTable Advanced</a></li>
+                           <li><a href="{{route('datatable-styling')}}">DataTable Styling</a></li>
+                           <li><a href="{{route('datatable-ajax')}}">DataTable (AJAX)</a></li>
+                           <li><a href="{{route('datatable-server-side')}}">DataTable (Server)</a></li>
+                           <li><a href="{{route('datatable-plugin')}}">DataTable Plugins</a></li>
+                           <li><a href="{{route('datatable-api')}}">DataTable API</a></li>
+                           <li><a href="{{route('datatable-data-source')}}">DataTable Data Source</a></li>
                         </ul>
                      </li>
                      <li>
                         <a href="#">Extension Data Tables</a>
                         <ul class="sidebar-submenu">
-                           <li><a href="{{route('datatable-ext-autofill')}}">datatable-ext-autofill</a></li>
-                           <li><a href="{{route('datatable-ext-basic-button')}}">datatable-ext-basic-button</a></li>
-                           <li><a href="{{route('datatable-ext-col-reorder')}}">datatable-ext-col-reorder</a></li>
-                           <li><a href="{{route('datatable-ext-fixed-header')}}">datatable-ext-fixed-header</a></li>
-                           <li><a href="{{route('datatable-ext-html-5-data-export')}}">datatable-ext-html-5-data-export</a></li>
-                           <li><a href="{{route('datatable-ext-key-table')}}">datatable-ext-key-table</a></li>
-                           <li><a href="{{route('datatable-ext-responsive')}}">datatable-ext-responsive</a></li>
-                           <li><a href="{{route('datatable-ext-row-reorder')}}">datatable-ext-row-reorder</a></li>
-                           <li><a href="{{route('datatable-ext-scroller')}}">datatable-ext-scroller</a></li>
+                           <li><a href="{{route('datatable-ext-autofill')}}">AutoFill</a></li>
+                           <li><a href="{{route('datatable-ext-basic-button')}}">Buttons</a></li>
+                           <li><a href="{{route('datatable-ext-col-reorder')}}">ColReorder</a></li>
+                           <li><a href="{{route('datatable-ext-fixed-header')}}">Fixed Header</a></li>
+                           <li><a href="{{route('datatable-ext-html-5-data-export')}}">HTML5 Export</a></li>
+                           <li><a href="{{route('datatable-ext-key-table')}}">Key Table</a></li>
+                           <li><a href="{{route('datatable-ext-responsive')}}">Responsive</a></li>
+                           <li><a href="{{route('datatable-ext-row-reorder')}}">Row Reorder</a></li>
+                           <li><a href="{{route('datatable-ext-scroller')}}">Scroller</a></li>
                         </ul>
                      </li>
-                     <li><a href="{{route('jsgrid-table')}}">jsgrid-table</a></li>
+                     <li><a href="{{route('jsgrid-table')}}">JS Grid</a></li>
                   </ul>
                </li>
                <li>
                   <a class="sidebar-header" href="#"><span>Cards</span></a>
                   <ul class="sidebar-submenu">
-                     <li><a href="{{route('basic-card')}}">basic-card</a></li>
-                     <li><a href="{{route('theme-card')}}">theme-card</a></li>
-                     <li><a href="{{route('tabbed-card')}}">tabbed-card</a></li>
-                     <li><a href="{{route('dragable-card')}}">dragable-card</a></li>
+                     <li><a href="{{route('basic-card')}}">Basic Card</a></li>
+                     <li><a href="{{route('theme-card')}}">Theme Card</a></li>
+                     <li><a href="{{route('tabbed-card')}}">Tabbed Card</a></li>
+                     <li><a href="{{route('dragable-card')}}">Draggable Card</a></li>
                   </ul>
                </li>
                <li>
                   <a class="sidebar-header" href="#"><span>Charts</span></a>
                   <ul class="sidebar-submenu">
-                     <li><a href="{{route('chart-google')}}">chart-google</a></li>
-                     <li><a href="{{route('chart-sparkline')}}">chart-sparkline</a></li>
-                     <li><a href="{{route('chart-flot')}}">chart-flot</a></li>
-                     <li><a href="{{route('chart-radial')}}">chart-radial</a></li>
-                     <li><a href="{{route('chart-morris')}}">chart-morris</a></li>
-                     <li><a href="{{route('chartjs')}}">chartjs</a></li>
-                     <li><a href="{{route('chartist')}}">chartist</a></li>
+                     <li><a href="{{route('chart-google')}}">Google Charts</a></li>
+                     <li><a href="{{route('chart-sparkline')}}">Sparkline</a></li>
+                     <li><a href="{{route('chart-flot')}}">Flot</a></li>
+                     <li><a href="{{route('chart-radial')}}">Radial</a></li>
+                     <li><a href="{{route('chart-morris')}}">Morris</a></li>
+                     <li><a href="{{route('chartjs')}}">Chart.js</a></li>
+                     <li><a href="{{route('chartist')}}">Chartist</a></li>
                   </ul>
                </li>
                <li>
                   <a class="sidebar-header" href="#"><span>Maps</span></a>
                   <ul class="sidebar-submenu">
-                     <li><a href="{{route('map-js')}}">map-js</a></li>
-                     <li><a href="{{route('vector-map')}}">vector-map</a></li>
+                     <li><a href="{{route('map-js')}}">Map JS</a></li>
+                     <li><a href="{{route('vector-map')}}">Vector Map</a></li>
                   </ul>
                </li>
                <li>
                   <a class="sidebar-header" href="#"><span>Editors</span></a>
                   <ul class="sidebar-submenu">
-                     <li><a href="{{route('summernote')}}">summernote</a></li>
-                     <li><a href="{{route('ckeditor')}}">ckeditor</a></li>
-                     <li><a href="{{route('simple-mde')}}">simple-mde</a></li>
-                     <li><a href="{{route('ace-code-editor')}}">ace-code-editor</a></li>
+                     <li><a href="{{route('summernote')}}">Summernote</a></li>
+                     <li><a href="{{route('ckeditor')}}">CKEditor</a></li>
+                     <li><a href="{{route('simple-mde')}}">SimpleMDE</a></li>
+                     <li><a href="{{route('ace-code-editor')}}">ACE Editor</a></li>
                   </ul>
                </li>
             </ul>
