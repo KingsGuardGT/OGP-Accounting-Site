@@ -33,7 +33,7 @@
             </ul>
          </li>
          <li>
-            <a href="#"><i class="font-primary" data-feather="layout"></i> Layouts</a>
+            <a href="#"><i class="font-primary" data-feather="users"></i> Clients</a>
             <ul>
                <li>
                   <a href="#">Color Version</a>
@@ -60,7 +60,7 @@
             </ul>
          </li>
          <li>
-            <a href="#"><i class="font-primary" data-feather="folder"></i> Components</a>
+            <a href="#"><i class="font-primary" data-feather="clock"></i> History</a>
             <ul>
                <li>
                   <a class="sidebar-header" href="#"><span> Base</span></a>
@@ -136,7 +136,7 @@
                   </ul>
                </li>
                <li>
-                  <a class="sidebar-header" href="#"><span>Forms</span></a>
+                  <a class="sidebar-header" href="#"><span>Contact Us</span></a>
                   <ul class="sidebar-submenu">
                      <li>
                         <a>Form Controls</a>
@@ -175,7 +175,7 @@
                   </ul>
                </li>
                <li>
-                  <a class="sidebar-header" href="#"><span>Tables</span></a>
+                  <a class="sidebar-header" href="#"><span>Find Us</span></a>
                   <ul class="sidebar-submenu">
                      <li>
                         <a href="#">Bootstrap Tables</a>
@@ -322,7 +322,7 @@
             </ul>
          </li>
          <li>
-            <a href="#"><i class="font-primary" data-feather="file-plus"></i> Pages</a>
+            <a href="#"><i class="font-primary" data-feather="rss"></i> Cnews</a>
             <ul>
                <li><a class="sidebar-header" href="{{route('sample-page')}}"><span>sample-page</span></a></li>
                <li>
@@ -441,7 +441,7 @@
                                     <div><a href="#"><i class="fa fa-spin fa-spinner"></i>  Animation</a></div>
                                     <div><a href="#"><i class="icon-package"></i>  Icons</a></div>
                                     <div><a href="#"><i class="icon-cloud-down"></i>  Buttons</a></div>
-                                    <div><a href="#"><i class="icon-notepad"></i>  Forms</a></div>
+                                    <div><a href="#"><i class="fa fa-map-marker"></i>  Find Us</a></div>
                                     <div><a class="mb-0" href="#"><i class="icon-harddrives"></i>  Tables</a></div>
                                  </div>
                               </div>
