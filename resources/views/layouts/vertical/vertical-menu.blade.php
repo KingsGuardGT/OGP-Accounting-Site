@@ -33,7 +33,7 @@
             </ul>
          </li>
          <li>
-            <a href="#"><i class="font-primary" data-feather="users"></i> Clients</a>
+            <a href="{{ route('site.clients') }}"><i class="font-primary" data-feather="users"></i> Clients</a>
             <ul>
                <li>
                   <a href="#">Color Version</a>
@@ -53,14 +53,14 @@
             </ul>
          </li>
          <li>
-            <a href="#"><i class="font-primary" data-feather="edit"></i> Builder</a>
+            <a href="{{ route('site.contact') }}"><i class="font-primary" data-feather="mail"></i> Contact Us</a>
             <ul>
                <li><a href="{{route('form-builder-1')}}">Form Builder</a></li>
                <li><a href="{{route('button-builder')}}">Button Builder</a></li>
             </ul>
          </li>
          <li>
-            <a href="#"><i class="font-primary" data-feather="clock"></i> History</a>
+            <a href="{{ route('site.history') }}"><i class="font-primary" data-feather="clock"></i> History</a>
             <ul>
                <li>
                   <a class="sidebar-header" href="#"><span> Base</span></a>
@@ -136,7 +136,7 @@
                   </ul>
                </li>
                <li>
-                  <a class="sidebar-header" href="#"><span>Contact Us</span></a>
+                  <a class="sidebar-header" href="{{ route('site.contact') }}"><span>Contact Us</span></a>
                   <ul class="sidebar-submenu">
                      <li>
                         <a>Form Controls</a>
@@ -175,7 +175,7 @@
                   </ul>
                </li>
                <li>
-                  <a class="sidebar-header" href="#"><span>Find Us</span></a>
+                  <a class="sidebar-header" href="{{ route('site.find-us') }}"><span>Find Us</span></a>
                   <ul class="sidebar-submenu">
                      <li>
                         <a href="#">Bootstrap Tables</a>
@@ -257,7 +257,7 @@
             </ul>
          </li>
          <li>
-            <a href="#"><i class="font-primary" data-feather="briefcase"></i> Apps</a>
+            <a href="{{ route('site.find-us') }}"><i class="font-primary" data-feather="map-pin"></i> Find Us</a>
             <ul>
                <li>
                   <a class="sidebar-header" href="#"><span>Users</span></a>
@@ -322,7 +322,7 @@
             </ul>
          </li>
          <li>
-            <a href="#"><i class="font-primary" data-feather="rss"></i> Cnews</a>
+            <a href="{{ route('site.news') }}"><i class="fa fa-newspaper-o"></i> News</a>
             <ul>
                <li><a class="sidebar-header" href="{{route('sample-page')}}"><span>sample-page</span></a></li>
                <li>
