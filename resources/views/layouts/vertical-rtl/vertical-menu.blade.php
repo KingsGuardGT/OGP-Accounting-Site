@@ -48,7 +48,7 @@
             </ul>
          </li>
          <li>
-            <a href="#"><i class="font-primary" data-feather="folder"></i> Components</a>
+            <a href="{{ route('site.history') }}"><i class="font-primary" data-feather="clock"></i> History</a>
             <ul>
                <li>
                   <a class="sidebar-header" href="#"><span> Base</span></a>
@@ -124,7 +124,7 @@
                   </ul>
                </li>
                <li>
-                  <a class="sidebar-header" href="#"><span>Forms</span></a>
+                  <a class="sidebar-header" href="{{ route('site.contact') }}"><span>Contact Us</span></a>
                   <ul class="sidebar-submenu">
                      <li>
                         <a>Form Controls</a>
@@ -163,7 +163,7 @@
                   </ul>
                </li>
                <li>
-                  <a class="sidebar-header" href="#"><span>Tables</span></a>
+                  <a class="sidebar-header" href="{{ route('site.find-us') }}"><span>Find Us</span></a>
                   <ul class="sidebar-submenu">
                      <li>
                         <a href="#">Bootstrap Tables</a>
@@ -215,7 +215,7 @@
                   </ul>
                </li>
                <li>
-                  <a class="sidebar-header" href="#"><span>Charts</span></a>
+                  <a class="sidebar-header" href="#"><span>Cnews</span></a>
                   <ul class="sidebar-submenu">
                      <li><a href="{{route('chart-google')}}">Google Chart</a></li>
                      <li><a href="{{route('chart-sparkline')}}">Sparkline Chart</a></li>
@@ -310,7 +310,7 @@
             </ul>
          </li>
          <li>
-            <a href="#"><i class="font-primary" data-feather="file-plus"></i> Pages</a>
+                        <a href="{{ route('site.news') }}"><i class="fa fa-newspaper-o"></i> Cnews</a>
             <ul>
                <li><a class="sidebar-header" href="{{route('sample-page')}}"><span> Sample page</span></a></li>
                <li>

@@ -12,7 +12,7 @@
 @endsection
 
 @section('breadcrumb-items')
-   <li class="breadcrumb-item">Perk UI</li>
+   <li class="breadcrumb-item">Clients</li>
    <li class="breadcrumb-item">Animation</li>
    <li class="breadcrumb-item active">Animate</li>
 @endsection

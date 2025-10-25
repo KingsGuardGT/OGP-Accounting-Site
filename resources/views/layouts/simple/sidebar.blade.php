@@ -18,7 +18,7 @@
             -->
          </li>
          <li>
-            <a class="bar-icons" href="{{ route('site.about') }}"><i class="pe-7s-users"></i><span>Company</span></a>
+            <a class="bar-icons" href="{{ route('site.clients') }}"><i class="pe-7s-users"></i><span>Clients</span></a>
             <!--
             <ul class="iconbar-mainmenu custom-scrollbar">
                <li class="iconbar-header">Ogung Ganda Persada</li>
@@ -33,7 +33,7 @@
             -->
          </li>
          <li>
-            <a class="bar-icons" href="{{ route('site.history') }}"><i class="pe-7s-portfolio"></i><span>UI Kits</span></a>
+            <a class="bar-icons" href="{{ route('site.history') }}"><i class="pe-7s-portfolio"></i><span>History</span></a>
             <!--
             <ul class="iconbar-mainmenu custom-scrollbar">
                <li class="iconbar-header">Ui Elements</li>
@@ -84,7 +84,7 @@
             -->
          </li>
          <li>
-            <span class="badge badge-pill badge-danger">Hot</span><a class="bar-icons" href="{{ route('site.clients') }}"><i class="pe-7s-diamond"></i><span>Perk UI</span></a>
+            <span class="badge badge-pill badge-danger">Hot</span><a class="bar-icons" href="{{ route('site.clients') }}"><i class="pe-7s-diamond"></i><span>Clients</span></a>
             <!--
             <ul class="iconbar-mainmenu custom-scrollbar">
                <li class="iconbar-header">Animation</li>
@@ -111,7 +111,7 @@
             -->
          </li>
          <li>
-            <a class="bar-icons" href="{{ route('site.contact') }}"><i class="pe-7s-note2"></i><span>Forms</span></a>
+            <a class="bar-icons" href="{{ route('site.contact') }}"><i class="pe-7s-note2"></i><span>Contact Us</span></a>
             <!--
             <ul class="iconbar-mainmenu custom-scrollbar">
                <li class="iconbar-header">Form Controls</li>
@@ -140,7 +140,7 @@
             -->
          </li>
          <li>
-            <a class="bar-icons" href="{{ route('site.find-us') }}"><i class="pe-7s-id"></i><span>Tables</span></a>
+            <a class="bar-icons" href="{{ route('site.find-us') }}"><i class="pe-7s-id"></i><span>Find Us</span></a>
             <!--
             <ul class="iconbar-mainmenu custom-scrollbar">
                <li class="iconbar-header">Bootstrap Tables</li>
@@ -173,7 +173,7 @@
             -->
          </li>
          <li>
-            <a class="bar-icons" href="{{ route('site.exchange-rates') }}"><i class="pe-7s-graph3"></i><span>Charts</span></a>
+            <a class="bar-icons" href="{{ route('site.news') }}"><i class="pe-7s-graph3"></i><span>Cnews</span></a>
             <!--
             <ul class="iconbar-mainmenu custom-scrollbar">
                <li class="iconbar-header">Charts</li>
