@@ -18,7 +18,7 @@
             -->
          </li>
          <li>
-            <a class="bar-icons" href="{{ route('site.clients') }}"><i class="pe-7s-users"></i><span>Clients</span></a>
+            <a class="bar-icons" href="{{ route('site.about') }}"><i class="pe-7s-users"></i><span>Company</span></a>
             <!--
             <ul class="iconbar-mainmenu custom-scrollbar">
                <li class="iconbar-header">Ogung Ganda Persada</li>
