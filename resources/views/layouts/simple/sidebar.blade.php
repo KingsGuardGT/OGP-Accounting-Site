@@ -84,7 +84,7 @@
             -->
          </li>
          <li>
-            <span class="badge badge-pill badge-danger">Hot</span><a class="bar-icons" href="{{ route('site.clients') }}"><i class="pe-7s-diamond"></i><span>Clients</span></a>
+            <a class="bar-icons" href="{{ route('site.clients') }}"><i class="pe-7s-users"></i><span>Clients</span></a>
             <!--
             <ul class="iconbar-mainmenu custom-scrollbar">
                <li class="iconbar-header">Animation</li>
@@ -173,7 +173,7 @@
             -->
          </li>
          <li>
-            <a class="bar-icons" href="{{ route('site.news') }}"><i class="pe-7s-graph3"></i><span>Cnews</span></a>
+            <a class="bar-icons" href="{{ route('site.exchange-rates') }}"><i class="pe-7s-graph3"></i><span>Exchanges</span></a>
             <!--
             <ul class="iconbar-mainmenu custom-scrollbar">
                <li class="iconbar-header">Charts</li>

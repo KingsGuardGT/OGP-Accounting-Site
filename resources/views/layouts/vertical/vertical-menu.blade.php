@@ -227,7 +227,7 @@
                   </ul>
                </li>
                <li>
-                  <a class="sidebar-header" href="#"><span>Cnews</span></a>
+                  <a class="sidebar-header" href="#"><span>Exchanges</span></a>
                   <ul class="sidebar-submenu">
                      <li><a href="{{route('chart-google')}}">Google Charts</a></li>
                      <li><a href="{{route('chart-sparkline')}}">Sparkline</a></li>
@@ -322,7 +322,7 @@
             </ul>
          </li>
          <li>
-            <a href="{{ route('site.news') }}"><i class="fa fa-newspaper-o"></i> News</a>
+            <a href="{{ route('site.exchange-rates') }}"><i class="pe-7s-graph3"></i> Exchanges</a>
             <ul>
                <li><a class="sidebar-header" href="{{route('sample-page')}}"><span>sample-page</span></a></li>
                <li>

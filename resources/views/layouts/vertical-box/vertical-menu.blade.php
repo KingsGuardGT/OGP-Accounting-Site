@@ -215,7 +215,7 @@
                   </ul>
                </li>
                <li>
-                  <a class="sidebar-header" href="#"><span>Cnews</span></a>
+                  <a class="sidebar-header" href="#"><span>Exchanges</span></a>
                   <ul class="sidebar-submenu">
                      <li><a href="{{route('chart-google')}}">Google Chart</a></li>
                      <li><a href="{{route('chart-sparkline')}}">Sparkline Chart</a></li>
