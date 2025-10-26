@@ -1,0 +1,29 @@
+name: Hostinger Auto Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  notify-hostinger:
+    name: Notify Hostinger Webhook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Hostinger
+        env:
+          WEBHOOK_URL: 'https://webhooks.hostinger.com/deploy/382b9bd1584e2ef5811062d3bcb7fccc'
+        run: |
+          echo "Calling Hostinger webhook..."
+          response=$(curl -s -w "\nHTTP_CODE:%{http_code}\n" -X POST -H "Content-Type: application/json" -d '{"ref":"'"${GITHUB_REF}"'","repository":"'"${GITHUB_REPOSITORY}"'","pusher":"'"${GITHUB_ACTOR}"'"}' "$WEBHOOK_URL") || true
+          echo "Response from Hostinger:" 
+          echo "$response"
+          if echo "$response" | grep -q "HTTP_CODE:20"; then
+            echo "Webhook triggered successfully."
+          else
+            echo "Warning: webhook may not have returned success (check Hostinger dashboard)."
+          fi
+
+      - name: Done
+        run: echo "Hostinger webhook job finished"
+
+  # Optional: you can extend this workflow to run tests/build before notifying Hostinger.
