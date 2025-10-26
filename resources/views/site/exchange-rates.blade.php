@@ -1,3 +1,76 @@
+@extends('layouts.main')
+
+@section('title','Exchanges - OGP Accounting')
+
+@section('content')
+<div class="row">
+    <div class="col-12 mb-3">
+        <div class="card p-3">
+            <div class="d-flex align-items-center">
+                <img src="{{ asset('assets/images/founder.jpg') }}" alt="Founder" style="height:72px; width:auto; margin-right:1rem;" onerror="this.onerror=null;this.src='{{ asset('assets/images/attachment-1.jpg') }}'"/>
+                <div>
+                    <h3 class="mb-0">Exchange Rates — Demo Charts</h3>
+                    <p class="text-muted mb-0">Sample exchange rate visuals and demo data driven charts.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3">
+            <h5>Line Chart — USD / Local (Demo)</h5>
+            <canvas id="lineChart"></canvas>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card p-3">
+            <h5>Bar Chart — Monthly (Demo)</h5>
+            <canvas id="barChart"></canvas>
+        </div>
+    </div>
+
+    <div class="col-12 mt-3">
+        <div class="card p-3">
+            <h5>Notes</h5>
+            <p class="text-muted">This page is a demo using Chart.js and sample data. Replace datasets with live exchange-rate API data when ready.</p>
+        </div>
+    </div>
+</div>
+
+@push('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const lineCtx = document.getElementById('lineChart').getContext('2d');
+        new Chart(lineCtx, {
+            type: 'line',
+            data: {
+                labels: ['Jan','Feb','Mar','Apr','May','Jun','Jul'],
+                datasets: [{
+                    label: 'USD / Local',
+                    borderColor: '#1f77b4',
+                    backgroundColor: 'rgba(31,119,180,0.1)',
+                    data: [14.2,14.5,14.4,14.7,14.9,14.8,15.1],
+                    tension: 0.3
+                }]
+            }
+        });
+
+        const barCtx = document.getElementById('barChart').getContext('2d');
+        new Chart(barCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Jan','Feb','Mar','Apr','May','Jun','Jul'],
+                datasets: [{
+                    label: 'Volume (Demo)',
+                    backgroundColor: '#ff7f0e',
+                    data: [120,150,170,140,180,190,220]
+                }]
+            }
+        });
+    </script>
+@endpush
+
+@endsection
 @extends('layouts.simple.master')
 @section('title','Exchange Rates')
 
