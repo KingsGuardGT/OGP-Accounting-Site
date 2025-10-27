@@ -26,149 +26,20 @@
                <li><a href="{{ route('site.history') }}">History</a></li>
                <li><a href="{{ route('site.clients') }}">Our Clients</a></li>
                <li><a href="{{ route('site.exchange-rates') }}">Exchange Rates</a></li>
-               <li><a href="{{ route('site.news') }}">News</a></li>
-               <li><a href="{{ route('site.find-us') }}">Find Us</a></li>
-               <li><a href="{{ route('site.contact') }}">Contact Us</a></li>
-            </ul>
-            -->
-         </li>
-         <li>
-            <a class="bar-icons" href="{{ route('site.history') }}"><i class="pe-7s-portfolio"></i><span>History</span></a>
-            <!--
-            <ul class="iconbar-mainmenu custom-scrollbar">
-               <li class="iconbar-header">Ui Elements</li>
-               <li><a href="{{route('state-color')}}">State color</a></li>
-               <li><a href="{{route('typography')}}">Typography</a></li>
-               <li><a href="{{route('buttons')}}">Buttons </a></li>
-               <li><a href="{{route('avatars')}}">Avatars</a></li>
-               <li><a href="{{route('helper-classes')}}">helper classes</a></li>
-               <li><a href="{{route('grid')}}">Grid</a></li>
-               <li><a href="{{route('tag-pills')}}">Tag & pills</a></li>
-               <li><a href="{{route('progress-bar')}}">Progress</a></li>
-               <li><a href="{{route('modal')}}">Modal</a></li>
-               <li><a href="{{route('alert')}}">Alert</a></li>
-               <li><a href="{{route('popover')}}">Popover</a></li>
-               <li><a href="{{route('tooltip')}}">Tooltip</a></li>
-               <li><a href="{{route('loader')}}">Spinners</a></li>
-               <li><a href="{{route('dropdown')}}">Dropdown</a></li>
-               <li><a href="{{route('tab-bootstrap')}}">Bootstrap Tabs</a></li>
-               <li><a href="{{route('tab-material')}}">Line Tabs</a></li>
-               <li><a href="{{route('accordion')}}">Accordion</a></li>
-               <li><a href="{{route('navs')}}">Navs</a></li>
-               <li><a href="{{route('list')}}">Lists</a></li>
-               <li><a href="{{route('scrollable')}}">Scrollable</a></li>
-               <li><a href="{{route('tree')}}">Tree view</a></li>
-               <li><a href="{{route('bootstrap-notify')}}">Bootstrap Notify</a></li>
-               <li><a href="{{route('rating')}}">Rating</a></li>
-               <li><a href="{{route('dropzone')}}">dropzone</a></li>
-               <li><a href="{{route('tour')}}">Tour</a></li>
-               <li><a href="{{route('sweet-alert2')}}">SweetAlert2</a></li>
-               <li><a href="{{route('modal-animated')}}">Animated Modal</a></li>
-               <li><a href="{{route('owl-carousel')}}">Owl Carousel</a></li>
-               <li><a href="{{route('ribbons')}}">Ribbons</a></li>
-               <li><a href="{{route('pagination')}}">Pagination</a></li>
-               <li><a href="{{route('steps')}}">Steps</a></li>
-               <li><a href="{{route('breadcrumb')}}">Breadcrumb</a></li>
-               <li><a href="{{route('range-slider')}}">Range Slider</a></li>
-               <li><a href="{{route('image-cropper')}}">Image cropper</a></li>
-               <li><a href="{{route('sticky')}}">Sticky</a></li>
-               <li class="iconbar-header sub-header">Icons</li>
-               <li><a href="{{route('font-awesome')}}">Fontawesome Icon</a></li>
-               <li><a href="{{route('ico-icon')}}">Ico Icon</a></li>
-               <li><a href="{{route('themify-icon')}}">Thimify Icon</a></li>
-               <li><a href="{{route('feather-icon')}}">Feather icon</a></li>
-               <li><a href="{{route('whether-icon')}}">Whether Icon</a></li>
-               <li><a href="{{route('pe7-icon')}}">pe7 icon</a></li>
-               <li><a href="{{route('ionic-icon')}}">Ionic icon</a></li>
-            </ul>
-            -->
-         </li>
-         <li>
-            <a class="bar-icons" href="{{ route('site.clients') }}"><i class="pe-7s-users"></i><span>Clients</span></a>
-            <!--
-            <ul class="iconbar-mainmenu custom-scrollbar">
-               <li class="iconbar-header">Animation</li>
-               <li><a href="{{route('animate')}}">Animate</a></li>
-               <li><a href="{{route('scroll-reval')}}">Scroll Reveal</a></li>
-               <li><a href="{{route('aos')}}">AOS animation</a></li>
-               <li><a href="{{route('tilt')}}">Tilt Animation</a></li>
-               <li><a href="{{route('wow')}}">Wow Animation</a></li>
-               <li class="iconbar-header sub-header">Menu Options</li>
-               <li><a href="{{route('hide-on-scroll')}}">Hide menu on Scroll</a></li>
-               <li><a href="{{route('vertical')}}">Vertical Menu</a></li>
-               <li><a href="{{route('mega-menu')}}">Mega Menu</a></li>
-               <li><a href="{{route('fix-header')}}">Fix header</a></li>
-               <li><a href="{{route('fix-header&amp;sidebar')}}">Fix Header & sidebar</a></li>
-               <li class="iconbar-header sub-header">Cards</li>
-               <li><a href="{{route('basic-card')}}">Basic Card</a></li>
-               <li><a href="{{route('theme-card')}}">Theme Card</a></li>
-               <li><a href="{{route('tabbed-card')}}">Tabbed Card</a></li>
-               <li><a href="{{route('dragable-card')}}">Draggable Card</a></li>
-               <li class="iconbar-header sub-header">Builders</li>
-               <li> <a href="{{route('button-builder')}}">Button Builder</a></li>
-               <li><a href="{{route('form-builder-1')}}">Form Builder</a></li>
-            </ul>
-            -->
-         </li>
-         <li>
-            <a class="bar-icons" href="{{ route('site.contact') }}"><i class="pe-7s-note2"></i><span>Contact Us</span></a>
-            <!--
-            <ul class="iconbar-mainmenu custom-scrollbar">
-               <li class="iconbar-header">Form Controls</li>
-               <li><a href="{{route('form-validation')}}">Form Validation</a></li>
-               <li><a href="{{route('base-input')}}">Base Inputs</a></li>
-               <li><a href="{{route('radio-checkbox-control')}}">Checkbox & Radio</a></li>
-               <li><a href="{{route('input-group')}}">Input Groups</a></li>
-               <li><a href="{{route('megaoptions')}}">Mega Options</a></li>
-               <li class="iconbar-header sub-header">Form Widgets</li>
-               <li><a href="{{route('datepicker')}}">Datepicker</a></li>
-               <li><a href="{{route('time-picker')}}">Timepicker</a></li>
-               <li><a href="{{route('datetimepicker')}}">Datetimepicker</a></li>
-               <li><a href="{{route('daterangepicker')}}">Daterangepicker</a></li>
-               <li><a href="{{route('touchspin')}}">Touchspin</a></li>
-               <li><a href="{{route('select2')}}">Select2</a></li>
-               <li><a href="{{route('switch')}}">Switch</a></li>
-               <li><a href="{{route('typeahead')}}">Typeahead</a></li>
-               <li><a href="{{route('clipboard')}}">Clipboard</a></li>
-               <li class="iconbar-header sub-header">Form Layout</li>
-               <li><a href="{{route('default-form')}}">Default Forms</a></li>
-               <li><a href="{{route('form-wizard')}}">Form Wizard 1</a></li>
-               <li><a href="{{route('form-wizard-two')}}">Form Wizard 2</a></li>
-               <li><a href="{{route('form-wizard-three')}}">Form Wizard 3</a></li>
-               <li><a href="{{route('form-wizard-four')}}">Form Wizard 4</a></li>
-            </ul>
-            -->
-         </li>
-         <li>
-            <a class="bar-icons" href="{{ route('site.find-us') }}"><i class="pe-7s-id"></i><span>Find Us</span></a>
-            <!--
-            <ul class="iconbar-mainmenu custom-scrollbar">
-               <li class="iconbar-header">Bootstrap Tables</li>
-               <li><a href="{{route('bootstrap-basic-table')}}">Basic Tables</a></li>
-               <li><a href="{{route('bootstrap-sizing-table')}}">Sizing Tables</a></li>
-               <li><a href="{{route('bootstrap-border-table')}}">Border Tables</a></li>
-               <li><a href="{{route('bootstrap-styling-table')}}">Styling Tables</a></li>
-               <li><a href="{{route('table-components')}}">Table components</a></li>
-               <li class="iconbar-header sub-header">Data Tables</li>
-               <li><a href="{{route('datatable-basic-init')}}">Basic Init</a></li>
-               <li><a href="{{route('datatable-advance')}}">Advance Init</a></li>
-               <li><a href="{{route('datatable-styling')}}">Styling</a></li>
-               <li><a href="{{route('datatable-ajax')}}">AJAX</a></li>
-               <li><a href="{{route('datatable-server-side')}}">Server Side</a></li>
-               <li><a href="{{route('datatable-plugin')}}">Plug-in</a></li>
-               <li><a href="{{route('datatable-api')}}">API</a></li>
-               <li><a href="{{route('datatable-data-source')}}">Data Sources</a></li>
-               <li class="iconbar-header sub-header">Extension Data Tables</li>
-               <li><a href="{{route('datatable-ext-autofill')}}">Auto Fill</a></li>
-               <li><a href="{{route('datatable-ext-basic-button')}}">Basic Button</a></li>
-               <li><a href="{{route('datatable-ext-col-reorder')}}">Column Reorder</a></li>
-               <li><a href="{{route('datatable-ext-fixed-header')}}">Fixed Header</a></li>
-               <li><a href="{{route('datatable-ext-html-5-data-export')}}">HTML 5 Export</a></li>
-               <li><a href="{{route('datatable-ext-key-table')}}">Key Table</a></li>
-               <li><a href="{{route('datatable-ext-responsive')}}">Responsive</a></li>
-               <li><a href="{{route('datatable-ext-row-reorder')}}">Row Reorder</a></li>
-               <li><a href="{{route('datatable-ext-scroller')}}">Scroller</a></li>
-               <li><a href="{{route('jsgrid-table')}}">Js Grid Table</a></li>
+               <li>
+                  <a class="bar-icons" href="#"><i class="pe-7s-users"></i><span>Company</span></a>
+                  <ul class="iconbar-mainmenu custom-scrollbar">
+                     <li class="iconbar-header">Ogung Ganda Persada</li>
+                     <li><a href="{{ route('home') }}">Home</a></li>
+                     <li><a href="{{ route('site.about') }}">About Us</a></li>
+                     <li><a href="{{ route('site.history') }}">History</a></li>
+                     <li><a href="{{ route('site.exchange-rates') }}">Exchange Rates</a></li>
+                     <li><a href="{{ route('site.clients') }}">Our Clients</a></li>
+                     <li><a href="{{ route('site.news') }}">News</a></li>
+                     <li><a href="{{ route('site.find-us') }}">Find Us</a></li>
+                     <li><a href="{{ route('site.contact') }}">Contact Us</a></li>
+                  </ul>
+               </li>
             </ul>
             -->
          </li>

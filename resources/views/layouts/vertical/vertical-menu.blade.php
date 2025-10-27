@@ -20,6 +20,9 @@
             <ul>
                <li><a href="{{ route('home') }}">Home</a></li>
                <li><a href="{{ route('site.about') }}">About Us</a></li>
+               <li><a href="{{ route('site.history') }}">History</a></li>
+               <li><a href="{{ route('site.exchange-rates') }}">Exchange Rates</a></li>
+               <li><a href="{{ route('site.clients') }}">Clients</a></li>
                <li><a href="{{ route('site.news') }}">News</a></li>
                <li><a href="{{ route('site.find-us') }}">Find Us</a></li>
                <li><a href="{{ route('site.contact') }}">Contact Us</a></li>

@@ -1,0 +1,40 @@
+name: SSH post-deploy (run artisan clears)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  post-deploy:
+    name: Run post-deploy commands on host via SSH
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run remote artisan maintenance commands
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          port: ${{ secrets.DEPLOY_PORT }}
+          script: |
+            set -e
+            cd ${{ secrets.DEPLOY_PATH }} || exit 1
+            # Safety: do not overwrite APP_KEY if already present. If you want to set APP_KEY from a secret,
+            # set SECRET_APP_KEY in GitHub secrets and uncomment the lines below.
+            # if ! grep -q '^APP_KEY=' .env; then
+            #   echo "APP_KEY=${{ secrets.SECRET_APP_KEY }}" >> .env
+            # fi
+            php artisan config:clear
+            php artisan cache:clear
+            php artisan view:clear
+            php artisan route:clear
+            # Optional: warm up caches (uncomment if desired)
+            # php artisan config:cache
+            # php artisan route:cache
+
+      - name: Finished
+        run: echo "Post-deploy SSH steps complete"
